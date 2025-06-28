@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Rubik+Wet+Paint&family=Unlock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&family=Unlock&display=swap');
+
+
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/_MGA1203.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    font-family: "Unlock", serif;
+    color: aliceblue;
+    font-size: 5rem;
+}
+.searchbar {
+    display: flex;
+    margin-top: 50px;
+    width: 350px;
+    background-color: aliceblue;
+    height: 35px;
+    margin-left: 45px;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+.searchbar input {
+    outline: none;
+    background-color: transparent;
+    font-weight: 500;
+    border: none;
+    padding-left: 10px;
+    flex: 1;
+    font-size: 16px;
+    color: black;
+}
+.searchbutton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbutton svg {
+    height: 20px;
+    width: 20px;
+    fill: black;
+    transition: fill 0.3s ease;
+}
+
+.searchbutton:hover svg {
+    fill: red;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+    height: 100hv;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-box1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.container1{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: aliceblue;
+    font-family: "Oswald", sans-serif;
+
+    
+}
+.mini-box1{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)), url("images/00-Hansi_Flick-M.webp");
+    background-size: cover;
+    background-position: center;
+}
+.mini-box2{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/01-Ter_Stegen-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini-box3{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/02-Cubarsi-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini1-box1{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)), url("images/04-Araujo-M.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+.mini2-box2{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/05-Martinez-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini3-box3{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/06-Gavi-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini4-box1{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)), url("images/07-Ferran_Torres-M.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+.mini5-box2{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/08-Pedri-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini6-box3{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/09-Lewandowski-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini7-box1{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)), url("images/10-Ansu_Fati-M.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+.mini8-box2{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/11-Raphinha-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini9-box3{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/13-Inaki_Pena-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini10-box1{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)), url("images/14-Pablo_Torre-M.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+.mini11-box2{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/15-Christensen-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini12-box3{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/16-Fermin-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini13-box1{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)), url("images/17-Casado-M.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+.mini14-box2{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/18-Pau_Victor-M.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mini15-box3{
+    background-image: linear-gradient(to bottom, transparent, rgba(1, 2, 6, 0.9)),url(images/19-Lamine-M.webp);
+    background-size: cover;
+    background-position: center;
+}

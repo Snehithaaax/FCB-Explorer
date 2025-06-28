@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Abel", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    /* Center items vertically */
+    padding: 0 20px;
+    background-color: black;
+    transition: 0.3s linear;
+    /* Keep this if you want the navbar to have a background */
+}
+
+.Heading {
+    font-size: 2.5rem;
+    font-family: "Bona Nova SC", serif;
+    background: linear-gradient(45deg, #0511f0, #cf1313);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-object {
+    margin-left: auto;
+    font-size: 1.30rem;
+    padding: 20px;
+    color: red;
+    font-weight: bolder;
+}
+
+.nav-object :hover {
+    color: #cf1313;
+    border-bottom: 1px solid #0511f0;
+    transition: 0.5s linear;
+}
+
+.threedots {
+    position: fixed;
+    right: 10px;
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.container1 .logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
+.container1 .logo:hover {
+    animation: animate 1.5s ease-in-out infinite;
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting {
+      font-size: 5rem;
+    font-family: "Dancing Script", serif;
+    background: linear-gradient(45deg, #0511f0, #cf1313);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.msnphoto img {
+    width: 400px;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 0 0 50px rgb(7, 7, 92);
+}
+
+.maininformation {
+    font-family: "EB Garamond", serif ;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    font-size: larger;
+    font-family: "Bona Nova SC", serif;
+    margin-left: 50px;
+}
+
+.maininformation .typewriter {
+    font-family: "Poppins", serif;
+    font-size: 2rem;
+    text-shadow: 0 0 8px;
+    margin-bottom: 10px;
+
+}
+
+.maininformation .type-writer-text {
+    color: #cf1313;
+}
+
+.container3 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "EB Garamond", serif ;
+}
+
+.container3-img {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.contain-img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/NeymarJr.jpeg);
+    border-radius: 10px;
+}
+
+.contain-img2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/Lionel\ Messi.jpeg);
+    border-radius: 10px;
+}
+
+.contain-img3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/Luis\ Suarez.jpeg);
+    border-radius: 10px;
+}
+/* Initial state: element is invisible and scaled down */
+/* Initial state: element is invisible and scaled up */
+
+
+
+
+.player-name {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 70%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: "Bona Nova SC", serif;
+    font-size: 2rem;
+    font-weight: 800;
+    transition: bottom 0.5 ease-in;
+
+}
+
+.contain-info {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    /* Start off the screen */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+    transition: bottom 0.5s ease-in-out;
+    opacity: 0;
+    /* Initially hidden */
+    visibility: hidden;
+    /* Initially hidden */
+    padding-top: 200px;
+    font-family: "EB Garamond", serif ;
+}
+
+.container3-img:hover .player-name {
+    visibility: hidden;
+}
+
+.container3-img:hover .contain-info {
+    bottom: 0%;
+    /* Move info into view */
+    opacity: 1;
+    /* Fade in */
+    visibility: visible;
+    /* Change visibility to visible */
+}
+
+.contain-info-positions {
+    font-family: "Bona Nova SC", serif;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
