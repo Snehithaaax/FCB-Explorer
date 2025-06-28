@@ -1,4 +1,4 @@
-⚽ BarcaVault – FC Barcelona 2024 Squad & Legacy
+⚽ FCB -explorer – FC Barcelona 2024 Squad & Legacy
 
 A beautifully crafted website to showcase **FC Barcelona's 2024 squad**, including player roles, search functionality, and a visually immersive design. Built with pure **HTML, CSS, and JavaScript** — it's a tribute to one of the greatest football clubs in the world.
 
@@ -39,7 +39,7 @@ BarcaVault/
 ## 🔧 How to Run Locally
 
 
-git clone https://github.com/your-username/BarcaVault.git
+git clone https://github.com/your-username/FCB-Explorer.git
 cd BarcaVault
 open index.html  
 
